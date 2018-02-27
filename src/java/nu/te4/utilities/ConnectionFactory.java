@@ -8,7 +8,7 @@ public class ConnectionFactory
 {
     public static Connection getConnection() throws SQLException, ClassNotFoundException
     {
-        String url = "jdbc:mysql://localhost/sebastian_recipe_db";
+        String url = "jdbc:mysql://localhost:8080/sebastian_recipe_db";
         String username = "root";
         String password = "te4te4te4";
         Class.forName("com.mysql.jdbc.Driver");
