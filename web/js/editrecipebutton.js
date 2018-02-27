@@ -27,7 +27,7 @@ $(document).ready(function()
             $.ajax
             ({
                 type: "DELETE",
-                url: "http://localhost:8080/sebastian_recipe_backend/api/Recipe/" + id ,
+                url: "http://94.46.140.3:8080/sebastian_recipe_backend/api/Recipe/" + id ,
                 headers:
                 {
                     "Authorization": "Basic " + btoa(session.username + ":" + session.password),

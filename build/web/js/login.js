@@ -13,7 +13,7 @@ function addUser(username, password)
     $.ajax
     ({
         type: "GET",
-        url: "http://localhost:8080/sebastian_recipe_backend/api/login",
+        url: "http://94.46.140.3:8080/sebastian_recipe_backend/api/login",
         headers:
         {
         "Authorization": "Basic " + btoa(username + ":" + password)

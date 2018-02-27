@@ -114,7 +114,7 @@ function getCategories()
     $.ajax
     ({
         type: "GET",
-        url: "http://localhost:8080/Recept_Projekt/api/categories",
+        url: "http://94.46.140.3:8080/sebastian_recipe_backend/api/categories",
         success: function(data)
         {
             buildCategories(data);
@@ -140,7 +140,7 @@ function postRecipe(recipe)
         $.ajax
         ({
             type: ajaxMethod,
-            url: "http://localhost:8080/sebastian_recipe_backend/api/Recipe" + ajaxId,
+            url: "http://94.46.140.3:8080/sebastian_recipe_backend/api/Recipe" + ajaxId,
             headers:
             {
                 "Authorization": "Basic " + btoa(session.username + ":" + session.password),

@@ -1,6 +1,6 @@
 function getData(id, callback)
 {
-    var url = "http://localhost:8080/sebastian_recipe_backend/api/Recipe/" + id;
+    var url = "http://94.46.140.3:8080/sebastian_recipe_backend/api/Recipe/" + id;
     
     $.ajax({
         url:url,

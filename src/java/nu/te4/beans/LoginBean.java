@@ -1,7 +1,7 @@
 package nu.te4.beans;
 
 import java.io.StringReader;
-import java.sql.Connection;
+import com.mysql.jdbc.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.Base64;
