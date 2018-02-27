@@ -1,0 +1,51 @@
+#header {
+  background-color: #b3ffb3;
+  height: 10em;
+  font-family: "Copperplate Gothic";
+  padding: auto;
+  padding-top: 1em;
+  box-shadow: 5px 5px 5px #888;
+  margin-top: 1em;
+}
+#header h1 {
+  font-size: 72px;
+  text-align: center;
+  color: #2b772b;
+}
+button {
+  margin-top: 1em;
+  background-color: #b3ffb3;
+  color: #095509;
+  border-radius: 0.5em;
+  box-shadow: 5px 5px 5px #888;
+  border: none;
+}
+button:hover {
+  box-shadow: 5px 5px 5px #888 inset;
+}
+.recipe {
+  margin-top: 1em;
+  height: 10em;
+  background-color: #b3ffb3;
+  box-shadow: 5px 5px 5px #888;
+}
+.recipe div {
+  height: 100%;
+}
+.recipe:hover {
+  box-shadow: 5px 5px 5px #888 inset;
+}
+div {
+  border-radius: 1em;
+}
+a div {
+  color: #095509;
+}
+#container {
+  padding-bottom: 1em;
+}
+img {
+  height: 100%;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */

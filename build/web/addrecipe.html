@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ändra Recept</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--stylesheets-->
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/recipe.css" rel="stylesheet" type="text/css"/>
+        
+        <!--scripts-->
+        <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+        <script src="js/add.js" type="text/javascript"></script>
+        <script src="js/session.js" type="text/javascript"></script>
+        <script src="js/loginbutton.js" type="text/javascript"></script>
+        <script src="js/getData.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="container" class="container col-lg-8 col-lg-offset-2">
+            <div id="header">
+                <h1>Recept Projekt</h1>
+            </div>
+            <div class="nav">
+                <a href="index.html"><button class="col-sm-2 col-md-2 col-lg-2">Tillbaka</button></a>
+                <a id="loginlink" href="#"><button id="login" class="col-lg-2 col-lg-offset-8 col-md-2 col-md-offset-8 col-sm-2 col-sm-offset-8"></button></a>
+            
+            </div>
+            <div id="main">
+                <div>
+                    <h5>Titel</h5>
+                    <input id="titel" type="text">
+                    <h5>Kategori</h5>
+                    <select id="kategorier">
+                        <option value="" style="display:none">Välj kategori</option>
+                    </select>
+                    <h5>Beskrivning</h5>
+                    <textarea id="beskrivning" cols="50" rows="5"></textarea>
+                    <h5>Ingredienser</h5>
+                    <ul id="ingredienser">
+                        
+                    </ul>
+                    <button id="addIngredient">Fler ingredienser</button>
+                    <h5>Instruktioner</h5>
+                    <textarea id="instruktioner" cols="50" rows="5"></textarea>
+                    <br>
+                    <input type="file" onchange="encodeImageFileAsURL(this)">
+                    <br>
+                    <button id="postRecipe">Lägg till</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

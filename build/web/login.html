@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Logga in</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--stylesheets-->
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/recipe.css" rel="stylesheet" type="text/css"/>
+        
+        <!--scripts-->
+        <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+        <script src="js/login.js" type="text/javascript"></script>
+        <script src="js/session.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="container" class="container col-lg-8 col-lg-offset-2">
+            <div id="header">
+                <h1>Recept Projekt</h1>
+            </div>
+            <div class="nav">
+                <a href="index.html"><button class="col-sm-2 col-md-2 col-lg-2">Tillbaka</button></a>
+            </div>
+            <div id="main">
+                <div>
+                    <table>
+                        <tr>
+                            <td><h5>Användarnamn: </h5></td>
+                            <td><input id="username" type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><h5>Lösenord: </h5></td>
+                            <td><input id="password" type="text"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button id="login">Logga in</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
